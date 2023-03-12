@@ -1,0 +1,64 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[sign]
+Class="Function"
+Prototype="int sign(double a);"
+
+[loadWaveFile]
+Class="Function"
+Prototype="int loadWaveFile(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[panelCallback]
+Class="Function"
+Prototype="int panelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[applyButton]
+Class="Function"
+Prototype="int applyButton(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[histogramButton]
+Class="Function"
+Prototype="int histogramButton(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[buttonIntervalPrev]
+Class="Function"
+Prototype="int buttonIntervalPrev(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[buttonIntervalNext]
+Class="Function"
+Prototype="int buttonIntervalNext(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[getInterval]
+Class="Function"
+Prototype="void getInterval(double *waveData, double *intervalData, int start, int stop, int pointsPerSecond);"
+
+[plotInterval]
+Class="Function"
+Prototype="void plotInterval(double *waveData, double *intervalData, int start, int stop, int pointsPerSecond);"
+
+[buttonEnvelope]
+Class="Function"
+Prototype="int buttonEnvelope(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[toggleButtonInterval]
+Class="Function"
+Prototype="int toggleButtonInterval(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnSwitchPanelCB]
+Class="Function"
+Prototype="int OnSwitchPanelCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnSpectrumButtonCB]
+Class="Function"
+Prototype="int OnSpectrumButtonCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnFilterButtonCB]
+Class="Function"
+Prototype="int OnFilterButtonCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[freqPanelCallback]
+Class="Function"
+Prototype="int freqPanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+

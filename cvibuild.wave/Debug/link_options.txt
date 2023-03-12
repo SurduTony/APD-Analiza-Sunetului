@@ -1,0 +1,35 @@
+-nologo
+-out:d:\CVI2017\.Poiecte\APD-P\proiect\cvibuild.wave\Debug\wave.exe
+-arch:x86
+-timestamp
+-debug:2
+-res:d:\CVI2017\.Poiecte\APD-P\proiect\cvibuild.wave\Debug\resources.res
+-entry:_CVIWinMainStartupCodeForDebugging@0
+-base:0x400000
+-linked:d:\CVI2017\.Poiecte\APD-P\proiect\cvibuild.wave\Debug\linkersummary.txt
+-dlldeps:d:\CVI2017\.Poiecte\APD-P\proiect\cvibuild.wave\Debug\dlldependencies.txt
+-licensing:d:\CVI2017\.Poiecte\APD-P\proiect\cvibuild.wave\Debug\linkerlicensing.txt
+-browsedeps:d:\CVI2017\.Poiecte\APD-P\proiect\cvibuild.wave\Debug\moduledependencies.txt
+-stackreserve:1048576
+-stackcommit:4096
+-in:d:\CVI2017\.Poiecte\APD-P\proiect\cvibuild.wave\Debug\wave.obj
+-more:d:\cvi2017\bin\msvc\cvistart.lib
+-more:d:\cvi2017\bin\msvc\cvi.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\advapi32.lib
+-more:c:\ProgramData\National Instruments\CVI2017\bin\msvc\analysis.lib
+-more:d:\CVI2017\bin\msvc\cviauto.lib
+-more:d:\CVI2017\bin\msvc\cvidotnet.lib
+-more:d:\CVI2017\bin\msvc\cvinetstreams.lib
+-more:d:\CVI2017\bin\msvc\cvinetv.lib
+-more:d:\CVI2017\bin\msvc\cvintwrk.lib
+-more:d:\CVI2017\bin\msvc\cvitdms.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\gdi32.lib
+-more:d:\CVI2017\bin\msvc\gpib.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\kernel32.lib
+-more:d:\CVI2017\bin\msvc\nivxi.lib
+-more:d:\CVI2017\bin\msvc\omp.lib
+-more:d:\CVI2017\toolslib\toolbox\msvc\toolbox.obj
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\user32.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\uuid.lib
+-more:d:\National Instruments\Shared\CVI\Bin\msvc\visa.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\winmm.lib

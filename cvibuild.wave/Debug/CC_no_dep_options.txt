@@ -1,0 +1,1 @@
+-force-include-file "wave.c";"d:\CVI2017\.Poiecte\APD-P\proiect\wave.c" 
